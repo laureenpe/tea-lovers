@@ -19,7 +19,7 @@ cajas tengan solo el ancho que les definimos.*/
 /* elemento  id "bienvenida" le pusimos una imagen de fondo con la propiedad background, también le dijimos que
 cubriera toda la superficie del elemento con  background-size: cover , tambien le decimos que la imagen quede
 centrada con background-position: center, y que le damos un padding de 50px en top y bottom, y de 0px en left y right.*/
-#bienvenida{
+#bienvenida {
     background: url('../img/fondo-bienvenida.jpg');
     background-size: cover;
     padding: 50px 0;
@@ -40,11 +40,11 @@ centrada con background-position: center, y que le damos un padding de 50px en t
     background-color: #8EC641;
 }
 /*Newsletter*/
-.newsletter{
+.newsletter {
     text-align: center;
     padding: 50px;
 }
-.newsletter button{
+.newsletter button {
     color: white;
     background-color: #8EC641;
     padding: 20px;
@@ -55,20 +55,51 @@ centrada con background-position: center, y que le damos un padding de 50px en t
     cursor: pointer;
 }
 /*seccion nuestra pasión*/
-#about{
-    background: url('..img/fondo-about.jpg');
+#about {
+    background: url('../img/fondo-about.jpg');
     background-size: cover;
     background-position:center;
     padding: 50px 0;
 }
-.contenido{
+.contenido {
     color: white;
     width: 40%;
     margin: 0 auto;
     padding: 30px 30px 100px 30px;
 }
-.contenido h1{
+.contenido h1 {
     font-weight: bolder;
     font-size: 5rem;
     text-transform: uppercase;
+}
+
+/*seccion sobre el te*/
+.te-diferentes{
+    color: white;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+.tipo-de-te{
+    border: 5px solid white;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.tipo-de-te h2{
+    font-size: 1.5rem;
+}
+
+/*SEcción disfruta*/
+#disfruta {
+    background: url('../img/disfruta.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+/*FOoter*/
+footer {
+    background-color: #3B3B3B;
+    padding: 20px 30px;
+    color: white;
 }
