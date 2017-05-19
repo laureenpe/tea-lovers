@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 16px;
+    background-color: #8EC641;
+}
+
+
+/*Contenido*/
+
+.contenido h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+
+/*formato al formulario*/
+
+.nombre,
+.email,
+.direccion {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background: white;
+    color: #8EC641;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.selector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.selecto {
+    background: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+/*muestras gratis*/
+
+.free-sample {
+    text-align: center;
+}
+
+
+/*SEccion newsletter*/
+
+
+/*fondo y color*/
+
+.color {
+    background-color: #8EC641;
+}
+
+
+/*Newsletter*/
+
+.newsletter {
+    text-align: center;
+    padding: 50px;
+}
+
+.newsletter button {
+    color: white;
+    background-color: #8EC641;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+}
