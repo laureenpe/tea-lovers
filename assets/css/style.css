@@ -2,10 +2,13 @@
 Código Hexadecimal verde: #8EC641
 Código Hexadecimal gris footer: #3B3B3B
 */
+
+
 /*Ponemos los valores por defecto de margin y padding, 
 que traen todos los elementos HTML para que las
 cajas tengan solo el ancho que les definimos.*/
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,38 +16,51 @@ cajas tengan solo el ancho que les definimos.*/
     font-size: 16px;
 }
 
+
 /*Estilos de la 1ra sección*/
 
 
 /* elemento  id "bienvenida" le pusimos una imagen de fondo con la propiedad background, también le dijimos que
 cubriera toda la superficie del elemento con  background-size: cover , tambien le decimos que la imagen quede
 centrada con background-position: center, y que le damos un padding de 50px en top y bottom, y de 0px en left y right.*/
+
 #bienvenida {
     background: url('../img/fondo-bienvenida.jpg');
     background-size: cover;
     padding: 50px 0;
 }
+
+
 /*A la caja del logo le dijimos que alineara su contenido a la izquiera, y que tuviese 0px de padding en top y bottom, y 30px en left y right.*/
-.logo{
+
+.logo {
     text-align: left;
     padding: 0 30px;
 }
 
-.mensaje{
+.mensaje {
     text-align: center;
 }
 
+
 /*SEccion newsletter*/
+
+
 /*fondo y color*/
-.color{
+
+.color {
     background-color: #8EC641;
 }
+
+
 /*Newsletter*/
+
 .newsletter {
     text-align: center;
     padding: 50px;
 }
-.newsletter button {
+
+.newsletter a {
     color: white;
     background-color: #8EC641;
     padding: 20px;
@@ -53,51 +69,65 @@ centrada con background-position: center, y que le damos un padding de 50px en t
     font-size: 1.5em;
     font-weight: bolder;
     cursor: pointer;
+    text-decoration: none;
 }
+
+
 /*seccion nuestra pasión*/
+
 #about {
     background: url('../img/fondo-about.jpg');
     background-size: cover;
-    background-position:center;
+    background-position: center;
     padding: 50px 0;
 }
+
 .contenido {
     color: white;
     width: 40%;
     margin: 0 auto;
     padding: 30px 30px 100px 30px;
 }
+
 .contenido h1 {
     font-weight: bolder;
     font-size: 5rem;
     text-transform: uppercase;
 }
 
+
 /*seccion sobre el te*/
-.te-diferentes{
+
+.te-diferentes {
     color: white;
     padding: 30px;
     width: 60%;
     margin: 0 auto;
 }
-.tipo-de-te{
+
+.tipo-de-te {
     border: 5px solid white;
     margin: 30px 0;
     padding: 20px;
 }
 
-.tipo-de-te h2{
+.tipo-de-te h2 {
     font-size: 1.5rem;
 }
 
+
 /*SEcción disfruta*/
+
 #disfruta {
     background: url('../img/disfruta.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px 0;
 }
+
+
 /*FOoter*/
+
 footer {
     background-color: #3B3B3B;
     padding: 20px 30px;
