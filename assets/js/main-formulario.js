@@ -8,7 +8,7 @@ function validation() {
     var emailReg = /\w+@\w+\.+[a-z]/;
     var addres = document.getElementById("direccion").value;
     var selector = document.getElementsByClassName("selector").value
-    if (name === '' || email === '' || addres === '' || selector === '') {
+    if (name === '' || email === '' || addres === '' || selector === '0') {
         alert("Por favor complete los campos...!!!!!!");
         return false;
     } else if (!(email).match(emailReg)) {
